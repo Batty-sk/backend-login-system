@@ -12,6 +12,8 @@ app.use(cors());
 
 const PORT = process.env.PORT ||8000;
 
+// sir exposing my cloud mongodb credentials because my monogodb compass were not working..
+
 mongoose.connect('mongodb+srv://user123:user123@cluster0.wa3ihmp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
